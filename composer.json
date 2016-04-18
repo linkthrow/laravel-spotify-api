@@ -1,0 +1,22 @@
+{
+    "name": "linkthrow/laravel-spotify-api",
+    "description": "Spotify API Wrapper For Laravel",
+    "keywords": ["framework", "laravel", "spotify"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hussan Choudhry",
+            "email": "hussan@uselinkthrow.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": ">=5.1.1",
+        "jwilsson/spotify-web-api-php": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkThrow\\SpotifyWebAPI": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
